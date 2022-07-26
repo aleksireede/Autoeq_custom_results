@@ -1,0 +1,5 @@
+python3.8 autoeq.py --input_dir="measurements/innerfidelity/data/onear/Skullcandy Crusher Wireless (wired, sub off)" --output_dir="my_results/test1" --compensation="measurements/innerfidelity/resources/innerfidelity_harman_over-ear_2018.csv" --equalize --bass_boost=4 --show_plot --convolution_eq --parametric_eq --ten_band_eq --fs=44100,48000 #harman 2018 pro
+
+python3.8 autoeq.py --input_dir="measurements/innerfidelity/data/onear/Skullcandy Crusher Wireless (wired, sub off)" --output_dir="my_results/test1" --compensation="compensation/zero.csv" --equalize --show_plot --convolution_eq --parametric_eq --ten_band_eq --fs=44100,48000 #flat
+
+python3.8 autoeq.py --input_dir="measurements/oratory1990/data/inear/Sony WF-XB700" --output_dir="my_results/test1" --compensation="measurements/innerfidelity/resources/innerfidelity_harman_over-ear_2018.csv" --equalize --bass_boost=4 --show_plot --convolution_eq --parametric_eq --ten_band_eq --fs=44100,48000 #harman 2018 pro
